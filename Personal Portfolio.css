@@ -1,0 +1,128 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.topnav {
+    background-color: #889486;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #dcccb4;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #bf5d39;
+    color: white;
+    font-style: italic;
+}
+
+#fade-in-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #bf5d39;
+    font-size: 50px;
+    text-transform: uppercase;
+    transition:
+        animation: fadeIn 5s;
+        -webkit-animation: fadeIn 5s;
+        -moz-animation: fadeIn 5s;
+        -o-animation: fadeIn 5s;
+        -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}  
+
+@-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#headshot {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    animation: fadeIn 2s;
+    margin: 0 auto;
+}
+
+.welcome-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    font-style: italic;
+    margin: 30px 0px 0 0;
+}
+
+.img {
+    background-image: url(https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3MxXC9tcV90cmF2ZWxcL2dldHR5aW1hZ2VzLTEyMDQwNDM4NDUtc2NhbGVkLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6IjEyMDAifX19);
+}
+
+.welcome-subtext {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-style: italic;
+    margin: 0px;
+}
+
+.work .placeholders {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color:  #889486;
+    justify-items: center;
+    border: solid slategrey;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.project-link {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+a:hover {
+    color:  #dcccb4;
+}
+
+.contact {
+    display: grid;
+    gap: 10px;
+    justify-content: space-around;
+}
