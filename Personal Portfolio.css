@@ -126,3 +126,8 @@ a:hover {
     gap: 10px;
     justify-content: space-around;
 }
+
+.footer {
+    text-align: center;
+    font-style: italic;
+}
